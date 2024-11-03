@@ -208,8 +208,7 @@ main {
 }
 
 
-/* About Us */
-/* General Reset and Styling */
+/* About Us General Reset and Styling */
 * {
     margin: 0;
     padding: 0;
@@ -217,7 +216,7 @@ main {
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: Lato, sans-serif;
     line-height: 1.6;
     padding: 20px;
     color: #004aad
@@ -234,20 +233,22 @@ body {
 
 .about-item {
     display: flex;
+    flex-direction: ;
     align-items: center;
     gap: 15px;
+    justify-content: center;
 }
 
 .about-item img {
-    width: 150px;
+    width: 200px;
     height: auto;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
 
 /* Styling for Description */
-.description h2 {
-    font-size: 1.5rem;
+.description h3 {
+    font-size: 2rem;
     color: #004aad;
 }
 
@@ -319,7 +320,7 @@ body {
 #social-networks i {
     font-size: 160%;
     padding: 5%;
-    color: #3a3a3a;
+    color: #004aad;
 }
 
 /* Media query: large or landscape phones (576px and up) */
@@ -366,7 +367,7 @@ body {
         margin-top: 79px;
     }
 
-    /* Hero image  - text move to right side*/
+    /* shuttle image  - text move to right side*/
     #cover-text {
         width: 300px;
         right: 50px;
@@ -394,6 +395,10 @@ body {
     column-count: 3;
 }
 
+/*ABOUT Page*/
+.about-item {
+    flex-direction: column; /* Change to column on mobile */
+}
 /* Form */
 #signup {
     background-position: center;
