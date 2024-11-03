@@ -36,17 +36,19 @@ h1, h2, h3 {
 
 /* Header */
 header {
-    background-color: #ffffff;
+    background-color: #004aad;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px #8b52fe; /*add box shadow */
+    box-shadow: 0 2px 3px #8b52fe; /*add box shadow */
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
-}
+    align-items: center;
+    }
 
+    
+    
 header a {
     text-decoration: none;
     color: inherit;
@@ -57,7 +59,9 @@ h1 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #252525;
+    color: #ebfafe;
+    margin-left: 60px;
+
 }
 
 #menu {
@@ -74,18 +78,32 @@ h1 {
     border-bottom: 1px solid #3a3a3a;
 }
 
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+#logoimage {
+    height: 50px;
+    width: 50px;
+    margin-right: 10px; /* Adds space between the image and heading */
+}
+
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
-    background-color: #ffffff;
+    background-color: #004aad;
     width: 100%;
     left: 0;
     padding: 0 1rem;
-    box-shadow: 0 2px 2px #3a3a3a;
+    box-shadow: 0 2px 2px #ebfafe;
     display: none; /* set to none so that the Nav bar is hidden until users click to open*/
     top: 100%;
 }
-
+nav a {
+    color: #ebfafe; /* Change to your preferred color */
+    text-decoration: none;
+    font-size: 110%; /* Adjust as needed */
+}
 /* Nav toggle */
 #nav-toggle:checked~nav {
     display: block;
@@ -97,6 +115,10 @@ nav {
 
 .nav-toggle-label {
     font-size: 2rem;
+    color:#ebfafe;
+    margin-right: 10px;
+    
+   
 }
 
 
