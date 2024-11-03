@@ -31,17 +31,59 @@ content="Badminton. Club for badminton, London, UK. Social club, junior and adul
 <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
 <nav>
     <ul id="menu">
-        <li><a href="index.html" >Home</a></li>
-        <li><a href="about.html" class="active">About</a></li>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
         <li><a href="contact.html">Contact Us</a></li>
     </ul>
 </nav>
 </header>
-<main>
+
+
+    <!--Main-->
+    <main>
+        <section id="signup">
+            <form id="signup-form" method="POST" action="https://formdump.codeinstitute.net">
+                <h2>Contact Us</h2>
+                <label for="first-name">First Name</label>
+                <input type="text" name="first_name" id="first-name" class="text-input" required>
+                <br>
+                <label for="last-name">Last Name</label>
+                <input type="text" name="last_name" id="last-name" class="text-input" required>
+                <br>
+                <label for="contact-number">Contact number</label>
+                <input type="number" name="contact-number" id="contact-number" class="text-input" required>
+                <br>
+                <label for="email-address">Email Address</label>
+                <input type="email" name="email_address" id="email-address" class="text-input" required>
+                <br>
+
+                <div class="radio-buttons">
+                    <fieldset id="contactus-reason">
+                        <legend>Reason for contacting us</legend>
+                        <form>
+                            <label for="Club_session">Club Session</label>
+                            <input type="radio" name="reason" value="club_session">
+                        <label for="Junior_coaching">Junior Coaching</label>
+                        <input type="radio" name="reason" value="Junior_coaching">
+                        <label for="Adult_coaching">Adult Coaching</label>
+                        <input type="radio" name="reason" value="Adult_coaching">
+                        </fieldset>
+                </div>
+                <div>
+                    <label for="message">Message</label>
+            <br>
+            <textarea name="message" id="message" placeholder="tell us more" rows="10" cols="50">Tell us more</textarea>
+                </div>
+                <button type="submit" class="join-button">Submit!</button>
+            </form>
+        </section>
+     
+        
+    </main>
+<!-- Location section -->
 
 
 
-</main>
 
     <!--Footer-->
     <footer>
