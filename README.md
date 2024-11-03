@@ -65,6 +65,10 @@ Colour Palette
 The colour palette was chosen based on the current N&P logo.
 <img src="assets\images\logo.JPG" alt="N&Plogo">
 I've picked out blue, purple being the main colours of choice.
+
 ## Wireframe
+I've hand drawn the ideas of what the different webpages would look on mobile device, as it is easier to design for mobile first then to laptop/tablet view.
+<img src="assets\images\wireframe_mobile.JPG" alt="wireframe">
+
 
 
