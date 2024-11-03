@@ -60,3 +60,42 @@ Checkout the website: https://heli-t-00.github.io/Project1_NPBadminton/
 - Ensure the website is **fully responsive** across mobile, tablet, and desktop views.
 - Deploy the website on **GitHub.**
 
+
+## Website Design Overview
+
+When designing the website, my focus was on creating an intuitive experience. I wanted users to immediately understand the purpose of the page, even if they arrived via a quick Google search. The wireframe was crafted with a mobile-first approach, ensuring a seamless user experience across devices. The color scheme centers on shades of purple and blue, inspired by the branding logo, to maintain visual cohesion and brand recognition.
+<img src="assets\images\wireframe_mobile.JPG" alt="wireframe">
+<img src="assets\images\logo.JPG" alt="logo N&P badminton club">
+
+## Features
+Existing  Features
+# Home 
+- Navigation 
+    -Featured at the top of the page to allow for intuitive search on all devices. Home, About, Contact Us pages all have identical navigation bar for consistency. Allowing for ease of navigation between pages, without the need to click back button. 
+
+- Landing page image
+    - Badminton shuttle photo (courtesy of Pexel free image) the choice of image instantly screams badminton, it can be replaced by an image of the club itself or use a slide show if preferred. The text overlay allow users to instantly see what the site is about.
+
+- Why Join Us?
+    - This gives the users an instant overview of what the club and coaching is about.
+
+- Meetup info
+    -This gives an overview of when the club plays and any junior sessions/training that takes place on regular basis.
+
+- Footer
+    - Each page has the same footer, with the relevant social media sites for N&P Badminton club. The links intend on opening a new tab for ease of navigation. Currently the club only have a facebook page and instagram. 
+
+# About
+This gives an introduction about the Founders and Coaches available with an image and also a little blog on who they are. 
+
+# Contact Us
+- Form to contact us with ease
+
+## Testing
+The pages have been tested on Chrome
+The website is responsive and looks good on all standard screens using the devtool device.
+Nav bar changes to an icon bar when viewed on smaller devices.
+
+Validator Testing
+- HTML
+Codes to be 
