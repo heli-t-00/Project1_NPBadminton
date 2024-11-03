@@ -114,7 +114,7 @@ main {
 
 /* Shuttle image */
 #shuttle {
-    height: 400px;
+    height: 500px;
     width: 100%;
     background: url("../images/shuttle\ on\ court.jpg") no-repeat center center/cover;
     position: relative;
@@ -233,7 +233,7 @@ body {
 
 .about-item {
     display: flex;
-    flex-direction: ;
+    flex-direction: column;
     align-items: center;
     gap: 15px;
     justify-content: center;
@@ -292,7 +292,7 @@ body {
 .radio-buttons {
     width: 100%;
     display: flex;
-    margin:50px
+    margin:50px;
    justify-content: space-between;
 }
 
