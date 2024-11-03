@@ -60,4 +60,3 @@ Checkout the website: https://heli-t-00.github.io/Project1_NPBadminton/
 - Ensure the website is **fully responsive** across mobile, tablet, and desktop views.
 - Deploy the website on **GitHub.**
 
-
