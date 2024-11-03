@@ -454,19 +454,19 @@ body {
         right: 50px;
     }
  /* Reasons section */
- #benefits-physical,
- #benefits-mental {
+ #benefits-toplay,
+ #benefits-coaching {
      display: flex;
      flex-direction: column;
      width: 100%;
  }
 
- #benefits-physical>div,
- #benefits-mental>div {
+ #benefits-toplay>div,
+ #benefits-coaching>div {
      width: 75%;
  }
 
- #benefits-mental>div {
+ #benefits-coaching>div {
      text-align: end;
      align-self: flex-end;
  }
@@ -491,7 +491,7 @@ body {
     padding: 10px;
     text-align: left;
 }
-
+}
 
 @media (max-width: 768px) {
     .about-item {
@@ -530,15 +530,15 @@ body {
         order: 0
     }
 
-    #benefits-mental {
+    #benefits-toplay {
         order: 1;
     }
 
-    #benefits-mental > div {
+    #benefits-toplay > div {
         align-self: flex-start;
     }
 
-    #benefits-physical > div {
+    #benefits-coaching > div {
         align-self: flex-end;
     }
 }
