@@ -209,13 +209,51 @@ main {
 
 
 /* About Us */
-#coach1 img {
-    width: 100%;
-    line-height: 1em;
+/* General Reset and Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-#photos {
-    line-height: 0;
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    color: #004aad
+}
+
+/* Styling for About Section */
+.about-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.about-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.about-item img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+/* Styling for Description */
+.description h2 {
+    font-size: 1.5rem;
+    color: #004aad;
+}
+
+.description p {
+    font-size: 1rem;
+    color: #004aad;
 }
 
 
@@ -379,7 +417,16 @@ main {
 }
 
 
+@media (max-width: 768px) {
+    .about-item {
+        flex-direction: column;
+        text-align: center;
+    }
 
+    .about-item img {
+        width: 100%;
+    }
+}
 
 }
 
