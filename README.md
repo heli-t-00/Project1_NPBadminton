@@ -6,6 +6,7 @@ I’m building a website for N&PBCC to give the club a stronger online presence 
 
 In addition to hosting play and coaching schedules, the site can potentially will offer users a convenient way to check session availability. There would be potential to create a member database where attendees can register their interest, track payments, and manage their session bookings in one place. This platform can potentially streamline club management while improving the experience for everyone involved.
 
+Checkout the website: https://heli-t-00.github.io/Project1_NPBadminton/
 
 ## Objectives /Goals:
 
