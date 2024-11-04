@@ -100,9 +100,9 @@ nav {
     top: 100%;
 }
 nav a {
-    color: #ebfafe; /* Change to your preferred color */
+    color: #ebfafe; 
     text-decoration: none;
-    font-size: 110%; /* Adjust as needed */
+    font-size: 110%; 
 }
 /* Nav toggle */
 #nav-toggle:checked~nav {
@@ -304,7 +304,7 @@ body {
 
 #signup-form > h2 {
     color: #effefe;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .text-input, 
@@ -502,6 +502,25 @@ body {
     .about-item img {
         width: 100%;
     }
+    #signup-form {
+        width: 90%; /* Reduce form width to fit smaller screens */
+        padding: 20px; /* Reduce padding to avoid overflow */
+    }
+
+    .text-input, 
+    #message {
+        font-size: 1em; /* Adjust font size for readability */
+        padding: 8px; /* Reduce padding inside input boxes */
+    }
+
+    #signup h2 {
+        font-size: 1.5rem; /* Make header size smaller */
+    }
+    .join-button {
+        padding: 10px 20px; /* Smaller padding for mobile */
+        font-size: 1em; /* Adjust font size */
+    }
+
 }
 
 
