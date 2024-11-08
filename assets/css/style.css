@@ -18,6 +18,7 @@ body {
   /* Generic project styles */
   color: #004aad;
   font-family: "Lato", sans-serif;
+
 }
 
 h1,
@@ -43,9 +44,11 @@ header {
   width: 100%;
   box-shadow: 0 2px 3px #8b52fe; /*add box shadow */
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  border: solid yellow;
+
+flex-direction: column-reverse;
+  
 }
 
 header a {
@@ -77,12 +80,42 @@ h1 {
 
 .logo-container {
   display: flex;
-  align-items: center;
+  
+  align-content: center;
+
+  
+  
+width: 95%;
+justify-content: space-between;
 }
 #logoimage {
   height: 50px;
   width: 50px;
   margin-right: 10px; /* Adds space between the image and heading */
+
+
+
+
+
+
+
+
+}
+
+
+.logoimageDiv {
+ 
+  align-content: center;
+}
+
+#logo {
+  font-size: 150%;
+  line-height: 25px;
+  margin:0 0;
+
+
+  text-align: center; 
+  
 }
 
 /* Navbar styles with dropdown toggle */
@@ -95,7 +128,11 @@ nav {
   box-shadow: 0 2px 2px #ebfafe;
   display: none; /* set to none so that the Nav bar is hidden until users click to open*/
   top: 100%;
+
+
+  
 }
+
 nav a {
   color: #ebfafe;
   text-decoration: none;
@@ -113,7 +150,13 @@ nav a {
 .nav-toggle-label {
   font-size: 2rem;
   color: #ebfafe;
-  margin-right: 10px;
+  margin-right: 0px;
+  margin-left: 10px;
+  
+
+
+
+  align-content:center;
 }
 
 /* Main content */
@@ -230,12 +273,12 @@ main {
   box-sizing: border-box;
 }
 
-body {
+/* body {
   font-family: Lato, sans-serif;
   line-height: 1.6;
   padding: 20px;
   color: #004aad;
-}
+} */
 
 /* Styling for About Section */
 .about-section {
@@ -402,25 +445,35 @@ body {
     column-count: 2;
     column-gap: 0; /*remove gaps between photo*/
   }
+
 }
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
   /* Header */
   nav {
-    display: block;
+    display: block; /*CHECK THIS*/
     position: relative;
     box-shadow: none;
     width: fit-content;
     padding-right: 1rem;
+  
+    align-content: center;
+
   }
 
   #menu {
     display: flex; /*allows menu to be displayed side by side*/
+margin: auto;
+text-align: baseline;
+ 
   }
 
   #menu > li {
     padding-left: 1rem;
+    align-self: center;
+
+    margin: auto;
   }
 
   .nav-toggle-label {
@@ -431,6 +484,8 @@ body {
     font-size: 280%;
     line-height: 75px;
     margin: 0 0.5rem;
+
+    /* border: 3px solid yellow; */
   }
 
   /* Main content */
