@@ -109,12 +109,11 @@ justify-content: space-between;
 }
 
 #logo {
-  font-size: 150%;
+  font-size: 120%;
   line-height: 25px;
-  margin:0 0;
+  margin: 15px 0 0 0;
 
 
-  text-align: center; 
   
 }
 
@@ -273,12 +272,7 @@ main {
   box-sizing: border-box;
 }
 
-/* body {
-  font-family: Lato, sans-serif;
-  line-height: 1.6;
-  padding: 20px;
-  color: #004aad;
-} */
+
 
 /* Styling for About Section */
 .about-section {
@@ -324,8 +318,6 @@ main {
   justify-content: center;
   align-items: center;
   min-height: 130vh;
-  border: solid red;
-  margin-top: 100px;
   width: 100%;
 }
 
@@ -336,7 +328,7 @@ main {
   width: 100%;
   max-width: 600px; /* Set a larger max-width for the form */
   border-radius: 5px; /* optional: adds a rounded corner to the form box */
-  border: solid green;
+  
 }
 
 #signup-form > h2 {
@@ -373,7 +365,7 @@ main {
   cursor: pointer;
 }
 
-#message {
+/* #message {
   background: transparent;
   color: #effefe;
   border: 1px solid #effefe;
@@ -382,6 +374,15 @@ main {
   margin-top: 10px;
   width: 100%;
   height: 150px;
+} */
+/*color for placeholder text*/
+::placeholder {
+  color:#ebfafe;
+  opacity: 1; /*visible*/
+}
+/*for Edge browers*/
+::-ms-input-placeholder {
+  color:#ebfafe;
 }
 
 /*ABOUT Page*/
@@ -408,6 +409,11 @@ main {
 .join-button:hover {
   background-color: #fafafa;
   color: #004aad;
+}
+
+#location {
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 /* Style for all locations */
@@ -441,11 +447,9 @@ main {
 
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
-  #photos {
-    column-count: 2;
-    column-gap: 0; /*remove gaps between photo*/
+  #signup {
+    min-height: 100vh;
   }
-
 }
 
 /* Media query: tablets and larger (768px and up) */
@@ -480,10 +484,10 @@ text-align: baseline;
     display: none; /*removes the X icon*/
   }
 
-  #logo {
-    font-size: 280%;
+  #logo { 
+    font-size: 200%;
     line-height: 75px;
-    margin: 0 0.5rem;
+    /* margin: 0 0.5rem; */
 
     /* border: 3px solid yellow; */
   }
@@ -536,6 +540,10 @@ text-align: baseline;
     padding: 10px;
     text-align: left;
   }
+
+  #signup {
+    min-height: 110vh;
+  }
 }
 
 @media (max-width: 768px) {
@@ -565,12 +573,18 @@ text-align: baseline;
     padding: 10px 20px; /* Smaller padding for mobile */
     font-size: 1em; /* Adjust font size */
   }
+  #signup {
+    min-height: 110vh;
+  }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
   #menu a:hover {
     border-bottom: 1px solid #ebfafe;
+  }
+  #signup {
+    min-height: 120vh;
   }
 }
 
@@ -600,5 +614,8 @@ text-align: baseline;
 
   #benefits-coaching > div {
     align-self: flex-end;
+  }
+  #signup {
+    min-height: 90vh;
   }
 }
