@@ -469,7 +469,7 @@ main {
   #menu {
     display: flex; /*allows menu to be displayed side by side*/
 margin: auto;
-text-align: baseline;
+/* text-align: baseline; */
  
   }
 

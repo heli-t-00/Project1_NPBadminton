@@ -100,6 +100,10 @@ Nav bar changes to an icon bar when viewed on smaller devices.
 W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project. 
 All the test came back with no errors.
 <img src="/assets/images/W3Validator_homepage.JPG" alt="test result W3C validator">
+checking HTML code (above image)
+<img src="/assets/images/w3validator_css.JPG" alt="image test resultas for CSS via W3C validator">
+No errors for CS code (image above)
+
 - Responsiveness 
 When testing for responsiveness of the webpages, majority of the pages look great.
 <img src="/assets/images/amiresponsive_homepg.JPG" alt="am i responsive image- Home Page">
@@ -108,8 +112,8 @@ When testing for responsiveness of the webpages, majority of the pages look grea
 <img src="/assets/images/amiresponsive_mixedpg.JPG" alt="am i responsive image - mixed pages">
 
 However, there are room for improvements:
-About page: the image for the coaches are quite large on tablet size, this could be adjusted or displayed differently.
-Contact page: the location /maps are not appearing all on the larger screens, need to scroll to see the locations. In addition, the contact form, could be further improved visually with respect to the spacing of its content.
+-- About page: the image for the coaches are quite large on tablet size, this could be adjusted or displayed differently.
+-- Contact page: the location /maps are not appearing all on the larger screens, need to scroll to see the locations. In addition, the contact form, could be further improved visually with respect to the spacing of its content.
 
 
 
