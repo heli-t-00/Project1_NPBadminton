@@ -101,15 +101,16 @@ W3C Markup Validator and W3C CSS Validator Services were used to validate every 
 All the test came back with no errors.
 - Responsiveness 
 When testing for responsiveness of the webpages, majority of the pages look great.
-
+<img src="/assets/images/amiresponsive_homepg.JPG" alt="am i responsive image- Home Page">
+<img src="/assets/images/amiresponsive_aboutpg.JPG" alt="am i responsive image - About Page">
+<img src="/assets/images/amiresponsive_contactpg.JPG" alt="am i responsive image - contact page">
+<img src="/assets/images/amiresponsive_mixedpg.JPG" alt="am i responsive image - mixed pages">
 
 However, there are room for improvements:
-About page: the image for the coaches are quite large on tablet size
-Contact page: the location /maps are not appearing all on the larger screens, need to scroll to see the locations.
+About page: the image for the coaches are quite large on tablet size, this could be adjusted or displayed differently.
+Contact page: the location /maps are not appearing all on the larger screens, need to scroll to see the locations. In addition, the contact form, could be further improved visually with respect to the spacing of its content.
 
-Secondly, another known issue is the header on all devices, the addition of the N&P Badminton logo had impacted on how the header is displayed, on mobile or tablet devices the header appears over two lines.
 
-Lastly, the hamburger nav bar is too close to the edge of the pages on all devices, need to amend.
 
 ## Credits
 
