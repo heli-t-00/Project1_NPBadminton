@@ -92,7 +92,7 @@ This gives an introduction about the Founders and Coaches available with an imag
 - Form to contact us with ease
 
 ## Testing
-The pages have been tested on Chrome
+The pages have been tested on Chrome.
 The website is responsive and looks good on all standard screens using the devtool device.
 Nav bar changes to an icon bar when viewed on smaller devices.
 
@@ -100,7 +100,12 @@ Nav bar changes to an icon bar when viewed on smaller devices.
 W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project. 
 All the test came back with no errors.
 - Responsiveness 
-When testing for responsiveness of the webpages, there are issues with the contact.html, where the contact us form is not displayed correctly on all devices. I am currently working on fixing this issue.
+When testing for responsiveness of the webpages, majority of the pages look great.
+
+
+However, there are room for improvements:
+About page: the image for the coaches are quite large on tablet size
+Contact page: the location /maps are not appearing all on the larger screens, need to scroll to see the locations.
 
 Secondly, another known issue is the header on all devices, the addition of the N&P Badminton logo had impacted on how the header is displayed, on mobile or tablet devices the header appears over two lines.
 
