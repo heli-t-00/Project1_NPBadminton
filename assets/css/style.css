@@ -324,7 +324,7 @@ main {
 #signup-form {
   color: #effefe;
   background-color: rgba(134, 20, 241, 0.8);
-  padding: 40px; /* Increase padding for a bigger form */
+  padding: 20px 40px; /* Increase padding for a bigger form */
   width: 100%;
   max-width: 600px; /* Set a larger max-width for the form */
   border-radius: 5px; /* optional: adds a rounded corner to the form box */
@@ -356,8 +356,8 @@ main {
 }
 
 .join-button {
-  margin-top: 20px;
-  padding: 15px 32px;
+  
+  padding: 15px 20px;
   font-size: 1.1em; /* Larger button text */
   background-color: #004aad;
   color: #effefe;
@@ -399,7 +399,7 @@ main {
   max-width: 400px;
   position: absolute;
   left: 10%;
-  top: 150;
+  /* top: 150; */
 }
 
 .text-input:hover {
