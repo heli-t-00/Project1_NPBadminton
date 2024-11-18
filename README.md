@@ -99,6 +99,7 @@ Nav bar changes to an icon bar when viewed on smaller devices.
 - Testing
 W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project. 
 All the test came back with no errors.
+<img src="/assets/images/W3Validator_homepage.JPG" alt="test result W3C validator">
 - Responsiveness 
 When testing for responsiveness of the webpages, majority of the pages look great.
 <img src="/assets/images/amiresponsive_homepg.JPG" alt="am i responsive image- Home Page">
